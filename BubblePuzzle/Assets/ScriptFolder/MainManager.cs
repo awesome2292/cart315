@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class MainManager : MonoBehaviour {
 
 	public int TotalScore;
-	public int TimeLeft = 10;
+	public int TimeLeft = 30;
     public Text RestartText;
     public Text GameOverText;
 

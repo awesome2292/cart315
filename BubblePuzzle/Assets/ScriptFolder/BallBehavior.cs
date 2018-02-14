@@ -37,7 +37,7 @@ public class BallBehavior : MonoBehaviour {
 		}
 
 		if (col.transform.tag == "Ball" || (col.transform.tag == "Ball" && col.transform.tag == "Wall")) {
-			if (GetComponent<Renderer> ().material.color == col.transform.GetComponent<Renderer>().material.color) {
+			if (GetComponent<Renderer> ().material.name == col.transform.GetComponent<Renderer>().material.name) {
 
 				CurrentlyCollidingSameColorBalls++;
 				AllSameColoredBallsCollision.Add(col.transform);
